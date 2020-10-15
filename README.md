@@ -4,6 +4,7 @@
 **primer ejercicio** :sunglasses:
 **convertir en angulos y calcular la medida en radianes.**
 
+```
 #include <iostream>
 using namespace std;
 #define PI 3.1416 
@@ -11,13 +12,18 @@ using namespace std;
 int main() 
 {
  float grados = 15.4; 
+ 
  float radianes;
+ 
  printf("numero en grados: %f", grados);
+ 
  radianes = grados*2*PI/360;
- printf("convertido a radianes son: %f", radianes);  
- return 0;
+ 
+ printf("convertido a radianes son: %f", radianes); 
+ 
+ 	return 0;
 }
-
+```
 
 
 **segundo ejercicio** 
@@ -26,14 +32,16 @@ int main()
 using namespace std;
 #define PI 3.1416
 
+```
 int main() {
-    float radianes = 0.0174533, grados;
+    float radianes = 0.0174533, grados;  
     
-    printf("el numero en radianes es: %f ", radianes);
+    printf("el numero en radianes es: %f ", radianes);  
     
-    grados = radianes*(180/PI);
+    grados = radianes*(180/PI);   
     
     printf("el numero en grados es: %f", grados);
     
 	return 0;
 }
+```
