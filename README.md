@@ -7,7 +7,7 @@
 ```
 #include <iostream>
 using namespace std;
-#define PI 3.1416 
+#define PI 3.1416 //dar un valor pi de forma global
 
 int main() 
 {
@@ -31,7 +31,8 @@ int main()
 ```
 #include <iostream>
 using namespace std;
-#define PI 3.1416
+#define PI 3.1416 //dar un valor a pi de forma global
+
 int main() {
     float radianes = 0.0174533, grados;  //declaracion de variables
     
