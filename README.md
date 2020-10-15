@@ -1,7 +1,7 @@
 # 5-ejercicios-cpp
 5 ejercicios en c++ para la materia de lenguajes de interfaz :computer: :computer:
 
-**primer ejercicio** :sunglasses:
+**Primer Ejercicio** :sunglasses:
 **convertir en angulos y calcular la medida en radianes.**
 
 ```
@@ -26,7 +26,7 @@ int main()
 ```
 
 
-**segundo ejercicio** :ok_hand:
+**Segundo Ejercicio** :ok_hand:
 **Convertir un numero de radianes y calcularlo a angulos**
 
 ```
@@ -45,7 +45,7 @@ int main() {
 	return 0;
 }
 ```
-**tercer ejercicio**:dizzy_face:
+**Tercer Ejercicio** :dizzy_face:
 **calcular el sueldo global de una semana de una persona, dado su sueldo por hora y las horas extras, numero de horas trabajas normales y extras.**
 
 ```
@@ -69,3 +69,28 @@ int main() {
 	return 0;
 }
 ```
+**Cuarto Ejercicio** :moneybag:
+**Un trabajo x dura 30 dias y se paga por el $10 diarios y otro dura tambien 30 dias, pero se paga como sigue: 1 el primer dia, 2 el segundo dia, 3 el tercer dia y asi sucesivamente ¿Cual esta mejor pagado?
+
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    int sueldo_primer_trabajo = 10, dias = 30, global, global2; 
+    
+    global = sueldo_primer_trabajo*dias;
+    
+    printf("sueldo global del primer trabajo: %i \n", global);
+    
+     for (int i=1; i<dias; i++)
+    {
+        global2 = global2 + i;
+    }
+    
+    printf("sueldo global del segundo trabajo: %i", global2);
+    
+	return 0;
+}
+```
+**Quinto Ejercicio**
