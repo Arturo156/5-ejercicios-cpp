@@ -26,7 +26,7 @@ int main()
 ```
 
 
-**segundo ejercicio** 
+**segundo ejercicio** :ok_hand:
 **Convertir un numero de radianes y calcularlo a angulos**
 #include <iostream>
 using namespace std;
