@@ -70,7 +70,7 @@ int main() {
 }
 ```
 **Cuarto Ejercicio** :moneybag:
-**Un trabajo x dura 30 dias y se paga por el $10 diarios y otro dura tambien 30 dias, pero se paga como sigue: 1 el primer dia, 2 el segundo dia, 3 el tercer dia y asi sucesivamente ¿Cual esta mejor pagado?
+**Un trabajo x dura 30 dias y se paga por el $10 diarios y otro dura tambien 30 dias, pero se paga como sigue: 1 el primer dia, 2 el segundo dia, 3 el tercer dia y asi sucesivamente ¿Cual esta mejor pagado?**
 
 ```
 #include <iostream>
@@ -93,4 +93,25 @@ int main() {
 	return 0;
 }
 ```
-**Quinto Ejercicio**
+**Quinto Ejercicio**:books:
+**El Sr Rogelio Bátiz gana $4.50 por hora hasta 40 horas y $6.75 por cada hora despues de 40 horas. La ultima semana trabajó 53 horas. Calcula sus ingresos.**
+
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    float sueldo = 4.50, sueldo2 = 6.75;
+    float horas = 40, horas_extras = 13, h, total;
+    
+    h = horas + horas_extras;
+    
+    printf("horas trabajadas totales: %f \n", h);
+    
+    total = (sueldo*horas)+(sueldo2*horas_extras);
+    
+    printf("sueldo total: %f", total);
+    
+	return 0;
+}
+```
